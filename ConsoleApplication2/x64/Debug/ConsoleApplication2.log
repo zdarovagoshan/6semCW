@@ -1,0 +1,13 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (DiffLab0.vcxproj, DiffLab2.vcxproj, DiffLab3.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  finite.cpp
+g:\6semak\курсач\cm.kurs\consoleapplication2\finite.cpp(212): warning C4267: аргумент: преобразование из "size_t" в "_Ty"; возможна потеря данных
+          with
+          [
+              _Ty=int
+          ]
+g:\6semak\курсач\cm.kurs\consoleapplication2\finite.cpp(136): warning C4715: FE::lymda: значение возвращается не при всех путях выполнения
+g:\6semak\курсач\cm.kurs\consoleapplication2\finite.cpp(147): warning C4715: FE::gamma: значение возвращается не при всех путях выполнения
+g:\6semak\курсач\cm.kurs\consoleapplication2\finite.cpp(169): warning C4715: FE::function: значение возвращается не при всех путях выполнения
+g:\6semak\курсач\cm.kurs\consoleapplication2\finite.cpp(185): warning C4715: FE::teta: значение возвращается не при всех путях выполнения
+g:\6semak\курсач\cm.kurs\consoleapplication2\finite.cpp(12): warning C4715: FE::GetGlobalIndex: значение возвращается не при всех путях выполнения
+  ConsoleApplication2.vcxproj -> G:\6semak\Курсач\CM.Kurs\x64\Debug\Kurs.exe
