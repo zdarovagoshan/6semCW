@@ -9,7 +9,7 @@ using namespace std;
 int main()
 {
 	setlocale(LC_CTYPE, "Russian");
-	ofstream os("result.txt");
+	ofstream os("data/result.txt");
 	Slau Axb;
 	Axb.iter = 0;
 	Axb.normF = 0;

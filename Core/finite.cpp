@@ -15,7 +15,7 @@ int FE::GetNumOfGlobal(int& ii) {
 }
 void FE::input() {
 	std::ifstream F;
-	F.open("coords.txt");
+	F.open("data/coords.txt");
 	F >> v_num;
 	vertices.resize(v_num);
 	for (int i = 0; i < v_num; i++) {
@@ -23,7 +23,7 @@ void FE::input() {
 		vertices[i].index = i;
 	}
 	F.close();
-	F.open("nvtr.txt");
+	F.open("data/nvtr.txt");
 	F >> fe_num;
 	fe.resize(fe_num);
 	for (int i = 0; i < fe_num; i++)
@@ -31,19 +31,19 @@ void FE::input() {
 		>> fe[i].vertex[2] >> fe[i].fe;
 	F.close();
 	KR1 k1; KR2 k2; KR3 k3;
-	F.open("1ku.txt");
+	F.open("data/1ku.txt");
 	while (!F.eof()) {
 		F >> k1.index >> k1.ug;
 		kr1.push_back(k1);
 	}
 	F.close();
-	F.open("2ku.txt");
+	F.open("data/2ku.txt");
 	while (!F.eof()) {
 		F >> k2.first_index >> k2.second_index >> k2.teta;
 		kr2.push_back(k2);
 	}
 	F.close();
-	F.open("3ku.txt");
+	F.open("data/3ku.txt");
 	while (!F.eof()) {
 		F >> k3.first_index >> k3.second_index
 			>> k3.beta >> k3.ub;
